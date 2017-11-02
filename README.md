@@ -9,7 +9,7 @@ information.
 ```Smalltalk
 Metacello new
   baseline: 'CalypsoExtensions';
-  repository: 'github://JurajKubelka/CalypsoExtensions';
+  repository: 'github://JurajKubelka/CalypsoExtensions/src';
   load.
 ```
   
