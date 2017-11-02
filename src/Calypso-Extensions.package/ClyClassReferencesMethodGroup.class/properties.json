@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JurajKubelka 11/2/2017 16:35",
+	"super" : "ClyMethodGroup",
+	"category" : "Calypso-Extensions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cursor"
+	],
+	"name" : "ClyClassReferencesMethodGroup",
+	"type" : "normal"
+}
