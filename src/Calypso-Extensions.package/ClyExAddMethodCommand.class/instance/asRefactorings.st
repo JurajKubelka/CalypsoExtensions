@@ -1,9 +1,9 @@
 converting
 asRefactorings
 	^ classes collect: [ :eachClass | | methodBody |
-		methodBody := self class codeForClass: eachClass.
+		methodBody := self methodSourceCodeForClass: eachClass.
 		ClyExOverrideMethodRefactoring 
 			addMethod: methodBody
 			toClass: eachClass
-			inProtocols: #(#initialization).
+			inProtocols: self methodProtocols.
 		 ]

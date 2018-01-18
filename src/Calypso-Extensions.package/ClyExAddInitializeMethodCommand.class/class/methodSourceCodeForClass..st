@@ -1,5 +1,5 @@
 accessing
-codeForClass: aClass
+methodSourceCodeForClass: aClass
 	"Return body of initialize method"
 	<return: #String>
 	^ String streamContents: [ :aStream | 
