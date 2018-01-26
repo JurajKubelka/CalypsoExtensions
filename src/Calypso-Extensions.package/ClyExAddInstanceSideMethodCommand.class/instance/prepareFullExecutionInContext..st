@@ -1,4 +1,4 @@
 execution
 prepareFullExecutionInContext: aToolContext
 	super prepareFullExecutionInContext: aToolContext.
-	self rejectClassesWithInitializeMethod.
+	self rejectClassesWithExistingMethodsIfWanted.

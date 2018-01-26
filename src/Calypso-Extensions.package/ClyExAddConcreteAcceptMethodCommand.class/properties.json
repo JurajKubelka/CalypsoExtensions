@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "JurajKubelka 1/17/2018 13:19",
-	"super" : "ClyExAddMethodCommand",
+	"super" : "ClyExAddInstanceSideMethodCommand",
 	"category" : "Calypso-Extensions-Method",
 	"classinstvars" : [
 		"classes"

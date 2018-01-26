@@ -1,4 +1,4 @@
-execution
+activation-drag and drop
 prepareExecutionInDragContext: aToolContext
 	super prepareExecutionInDragContext: aToolContext.
-	self rejectClassesWithInitializeMethod.
+	self rejectClassesWithExistingMethodsIfWanted.

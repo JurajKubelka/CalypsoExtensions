@@ -1,6 +1,6 @@
 testing
 canBeExecutedInContext: aToolContext
-	^ aToolContext isClassSelected and: [ 
+	^ (super canBeExecutedInContext: aToolContext) and: [ 
 		aToolContext selectedClasses anySatisfy: [ :eachClass | 
-			(eachClass selectors includes: #accept:) not or: [ 
+			(self constructedMethodSelectorExistsInClass: eachClass) not or: [ 
 				(eachClass compiledMethodAt: #accept:) isSubclassResponsibility ] ] ]

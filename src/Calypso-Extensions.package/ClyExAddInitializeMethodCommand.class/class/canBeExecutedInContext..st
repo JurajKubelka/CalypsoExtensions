@@ -1,6 +1,5 @@
 testing
 canBeExecutedInContext: aToolContext
-	^ aToolContext metaLevelScope = ClyInstanceSideScope
-		and: [ aToolContext isClassSelected
-				and: [ aToolContext selectedClasses
-						anySatisfy: [ :eachClass | (self hasInitializeMethod: eachClass) not ] ] ]
+	^ (super canBeExecutedInContext: aToolContext) and: [
+			aToolContext selectedClasses anySatisfy: [ :eachClass | 
+				(self constructedMethodSelectorExistsInClass: eachClass) not ] ]
