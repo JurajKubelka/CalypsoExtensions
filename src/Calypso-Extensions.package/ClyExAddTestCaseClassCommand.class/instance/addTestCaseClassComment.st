@@ -1,0 +1,3 @@
+private
+addTestCaseClassComment
+	self testCaseClass comment: self testCaseClassComment

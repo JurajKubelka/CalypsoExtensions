@@ -1,3 +1,4 @@
 execution
 execute
-	self executeRefactorings
+	self executeRefactorings.
+	self addTestCaseClassComment.

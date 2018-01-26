@@ -1,4 +1,4 @@
 transforming
 transform
-	class := class value.
+	class := self classObjectFor: class value.
 	super transform.
