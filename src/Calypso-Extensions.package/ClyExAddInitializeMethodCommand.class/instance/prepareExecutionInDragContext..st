@@ -1,0 +1,4 @@
+execution
+prepareExecutionInDragContext: aToolContext
+	super prepareExecutionInDragContext: aToolContext.
+	self rejectClassesWithInitializeMethod.
