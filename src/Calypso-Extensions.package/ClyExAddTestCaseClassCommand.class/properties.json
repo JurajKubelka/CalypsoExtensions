@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SycSingleClassCommand",
+	"category" : "Calypso-Extensions-Method",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"testClasses"
+	],
+	"name" : "ClyExAddTestCaseClassCommand",
+	"type" : "normal"
+}
