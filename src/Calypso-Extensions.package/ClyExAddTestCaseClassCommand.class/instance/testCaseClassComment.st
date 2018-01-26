@@ -3,7 +3,7 @@ testCaseClassComment
 	^ String
 		streamContents: [ :stream | 
 			| name |
-			name := self testClassNameFrom.
+			name := self testClassName.
 			name first isVowel
 				ifTrue: [ stream << 'An ' ]
 				ifFalse: [ stream << 'A ' ].

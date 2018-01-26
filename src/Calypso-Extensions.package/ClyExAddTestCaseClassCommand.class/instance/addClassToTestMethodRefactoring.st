@@ -2,5 +2,5 @@ private
 addClassToTestMethodRefactoring
 	^ ClyExOverrideMethodRefactoring
 		addMethod: self classToTestMethodBody
-		toClass: [ self testClassNameFrom ]
+		toClass: [ self testClassName ]
 		inProtocols: #accessing

@@ -1,7 +1,7 @@
 private
 addClassRefactoring
 	^ RBAddClassRefactoring
-		addClass: self testClassNameFrom
+		addClass: self testClassName
 		superclass: #TestCase
 		subclasses: #()
-		category: self testClassCategoryFrom
+		category: self testClassCategory
