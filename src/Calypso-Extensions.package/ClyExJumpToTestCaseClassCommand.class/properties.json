@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JurajKubelka 1/26/2018 23:58",
+	"super" : "ClyExTestCaseClassCommand",
+	"category" : "Calypso-Extensions-Method",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ClyExJumpToTestCaseClassCommand",
+	"type" : "normal"
+}
