@@ -4,4 +4,4 @@ existsTestCaseFor: aClass
 	^ aClass environment 
 		at: (self testClassNameFor: aClass)
 		ifPresent: [ true ]
-		ifAbsentPut: [ false ]
+		ifAbsent: [ false ]
