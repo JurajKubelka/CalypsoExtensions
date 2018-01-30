@@ -1,3 +1,3 @@
 accessing
 testClassNameFor: aClass
-	^ (aClass name asString, 'Test') asSymbol
+	^ (aClass theNonMetaClass name asString, 'Test') asSymbol
