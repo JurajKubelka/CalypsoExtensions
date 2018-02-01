@@ -8,7 +8,17 @@ baseline: spec
 				spec
 					repository: 'github://dionisiydk/Calypso';
 					loads: #default ];
-			package: #'Calypso-Extensions' with: [ 
+			package: #'Calypso-Extensions-Core' with: [ 
 				spec requires: #( 'Calypso' ) ];
-			group: #'default' with: #( #'Calypso-Extensions' )
+			package: #'Calypso-Extensions-AddMethod' with: [ 
+				spec requires: #( 'Calypso' #'Calypso-Extensions-Core' ) ];
+			package: #'Calypso-Extensions-ClassReference' with: [ 
+				spec requires: #( 'Calypso' #'Calypso-Extensions-Core' ) ];
+			package: #'Calypso-Extensions-SUnit' with: [ 
+				spec requires: #( 'Calypso' ) ];
+			group: #'default' with: #( 
+				#'Calypso-Extensions-Core' 
+				#'Calypso-Extensions' 
+				#'Calypso-Extensions-SUnit'
+				#'Calypso-Extensions-ClassReference' )
 	 ]
