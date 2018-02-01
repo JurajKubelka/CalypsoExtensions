@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ClyProperty",
+	"category" : "Calypso-Extensions-SUnit",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"coveredMethod"
+	],
+	"name" : "ClyExTestingMethodProperty",
+	"type" : "normal"
+}

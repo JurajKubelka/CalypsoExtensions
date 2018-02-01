@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JurajKubelka 2/1/2018 12:45",
+	"super" : "ClyExSingleMethodCommand",
+	"category" : "Calypso-Extensions-SUnit",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"property"
+	],
+	"name" : "ClyExJumpToTestedMethodCommand",
+	"type" : "normal"
+}
