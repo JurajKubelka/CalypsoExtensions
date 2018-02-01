@@ -1,3 +1,3 @@
 testing
 isSlow
-	^true
+	^ true
