@@ -18,7 +18,7 @@ baseline: spec
 				spec requires: #( 'Calypso' ) ];
 			group: #'default' with: #( 
 				#'Calypso-Extensions-Core' 
-				#'Calypso-Extensions' 
+				#'Calypso-Extensions-AddMethod'
 				#'Calypso-Extensions-SUnit'
 				#'Calypso-Extensions-ClassReference' )
 	 ]
