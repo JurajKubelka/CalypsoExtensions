@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JurajKubelka 1/17/2018 13:19",
+	"super" : "ClyExAddInstanceSideMethodCommand",
+	"category" : "Calypso-Extensions-AddMethod",
+	"classinstvars" : [
+		"classes"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ClyExAddConcreteAcceptMethodCommand",
+	"type" : "normal"
+}
