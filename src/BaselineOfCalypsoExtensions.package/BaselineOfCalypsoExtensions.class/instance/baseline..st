@@ -16,9 +16,12 @@ baseline: spec
 				spec requires: #( 'Calypso' #'Calypso-Extensions-Core' ) ];
 			package: #'Calypso-Extensions-SUnit' with: [ 
 				spec requires: #( 'Calypso' ) ];
+			package: #'Calypso-Extensions-GtExamples' with: [ 
+				spec requires: #( 'Calypso' ) ];
 			group: #'default' with: #( 
 				#'Calypso-Extensions-Core' 
 				#'Calypso-Extensions-AddMethod'
 				#'Calypso-Extensions-SUnit'
-				#'Calypso-Extensions-ClassReference' )
+				#'Calypso-Extensions-ClassReference'
+				#'Calypso-Extensions-GtExamples' )
 	 ]

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ClyExGtExamplesCommand",
+	"category" : "Calypso-Extensions-GtExamples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ClyExGtExamplesInspectReturnValuesCommand",
+	"type" : "normal"
+}
