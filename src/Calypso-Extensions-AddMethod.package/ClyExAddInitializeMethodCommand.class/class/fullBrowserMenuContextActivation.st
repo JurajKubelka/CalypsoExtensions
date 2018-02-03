@@ -1,5 +1,5 @@
 activation
-fullBrowserMenuMenuContextActivation
+fullBrowserMenuContextActivation
 	<classAnnotation>
 	^ CmdContextMenuCommandActivation
 		byItemOf: CmdExtraMenuGroup
