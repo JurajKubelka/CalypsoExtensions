@@ -1,6 +1,6 @@
 activation
 fullBrowserMenuMethodContextActivation
-	<classAnnotation>
+	"<classAnnotation>"
 	^ CmdContextMenuCommandActivation
 		byItemOf: ClyExGtExamplesMenuGroup
 		order: self menuItemOrder
