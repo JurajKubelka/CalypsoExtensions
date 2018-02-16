@@ -1,1 +1,0 @@
-I am a plugin that provide class references as a method protocol item.

@@ -1,1 +1,0 @@
-I am a method group provider which  provides a class references group.

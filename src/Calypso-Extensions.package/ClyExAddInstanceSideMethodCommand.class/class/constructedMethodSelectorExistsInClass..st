@@ -1,3 +1,0 @@
-testing
-constructedMethodSelectorExistsInClass: aClass
-	^ aClass includesSelector: self constructedMethodSelector
