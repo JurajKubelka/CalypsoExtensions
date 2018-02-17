@@ -7,10 +7,10 @@ baseline: spec
 			baseline: 'Calypso' with: [ 
 				spec
 					repository: 'github://dionisiydk/Calypso';
-					loads: 'CalypsoExtensions' ];
+					loads: 'default' ];
 			baseline: 'GToolkitExamples' with: [ spec 
 				repository: 'github://feenkcom/gtoolkit-examples/src';
-				loads: 'Calypso' ];
+				loads: 'CalypsoExtensions' ];
 			package: #'Calypso-Extensions-Core' with: [ 
 				spec requires: #( 'Calypso' ) ];
 			package: #'Calypso-Extensions-AddMethod' with: [ 
