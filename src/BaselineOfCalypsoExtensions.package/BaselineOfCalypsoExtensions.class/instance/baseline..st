@@ -6,7 +6,7 @@ baseline: spec
 		spec 
 			baseline: 'Calypso' with: [ 
 				spec
-					repository: 'github://dionisiydk/Calypso';
+					repository: 'github://pharo-ide/Calypso';
 					loads: 'default' ];
 			baseline: 'GToolkitExamples' with: [ spec 
 				repository: 'github://feenkcom/gtoolkit-examples/src';
