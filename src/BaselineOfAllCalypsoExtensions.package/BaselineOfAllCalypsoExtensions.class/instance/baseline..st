@@ -6,7 +6,6 @@ baseline: spec
 		spec 
 			baseline: 'CalypsoExtensions' with: [ 
 				spec repository: 'github://JurajKubelka/CalypsoExtensions/src' ];
-			baseline: 'GToolkitExamplesCalypso' with: [ spec 
-				repository: 'github://feenkcom/gtoolkit-examples/src';
-				loads: 'CalypsoExtensions' ]
+			baseline: 'GToolkitExamplesCalypso' with: [ 
+				spec repository: 'github://feenkcom/gtoolkit-examples/src' ]
 	 ]
