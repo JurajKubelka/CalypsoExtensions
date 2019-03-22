@@ -1,4 +1,4 @@
 *Calypso-Extensions-Core
 clyExFullBrowserShortcutActivation
 	<classAnnotation>
-	^ CmdShortcutCommandActivation by: $g meta , $f meta for: ClyFullBrowserContext
+	^ CmdShortcutActivation by: $g meta , $f meta for: ClyFullBrowserContext

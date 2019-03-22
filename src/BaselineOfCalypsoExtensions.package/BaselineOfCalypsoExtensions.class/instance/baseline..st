@@ -6,10 +6,6 @@ baseline: spec
 		spec 
 			package: #'Calypso-Extensions-Core';
 			package: #'Calypso-Extensions-AddMethod' with: [ 
-				spec requires: #( #'Calypso-Extensions-Core' ) ];
-			package: #'Calypso-Extensions-ClassReference' with: [ 
-				spec requires: #( #'Calypso-Extensions-Core' ) ];
-			package: #'Calypso-Extensions-SUnit' with: [ 
 				spec requires: #( #'Calypso-Extensions-Core' ) ]
 	 ].
 
